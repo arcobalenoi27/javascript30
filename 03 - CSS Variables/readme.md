@@ -21,9 +21,9 @@
  - 取得3個input的DOM element
  - 監聽每個input的變化 - mousemove事件(滑鼠滑過該element時觸發的事件)、change事件
  - 依據監聽到的事件來更新CSS variable
-  + 獲取更新後的數值
-  + 獲取更新的項目名稱(blur、spacing、base)
-  + 更新相應的CSS variable
+   + 獲取更新後的數值
+   + 獲取更新的項目名稱(blur、spacing、base)
+   + 更新相應的CSS variable
 
 ## How it works(Implement)
 1. 如何動態改變圖片的各種style?  在這個範例我們會使用CSS variable來對應各個style的效果(邊框尺寸、邊框顏色、模糊度)，我們把CSS variable對應到每個style效果的值，再藉由javascript動態改變這些CSS varibale的值。
